@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 h-screen flex flex-col items-center justify-center dark:bg-gray-800 dark:text-white">
+
+    <div class="calculator bg-white p-8 rounded-md shadow-md mb-4">
+        <input type="text" id="display" readonly class="w-full mb-4 p-2 border border-gray-300 rounded-md">
+        <div class="grid grid-cols-4 gap-4">
+            <button onclick="clearAll()" class="bg-gray-400 p-4 rounded-md text-white">C</button>
+            <button onclick="clearEntry()" class="bg-gray-400 p-4 rounded-md text-white">CE</button>
+            <button onclick="calculatePercentage()" class="bg-gray-400 p-4 rounded-md text-white">%</button>
+            <button onclick="calculateSquareRoot()" class="bg-gray-400 p-4 rounded-md text-white">√</button>
+            <button onclick="appendToDisplay('7')" class="bg-blue-500 p-4 rounded-md text-white">7</button>
+            <button onclick="appendToDisplay('8')" class="bg-blue-500 p-4 rounded-md text-white">8</button>
+            <button onclick="appendToDisplay('9')" class="bg-blue-500 p-4 rounded-md text-white">9</button>
+            <button onclick="appendToDisplay('/')" class="bg-yellow-500 p-4 rounded-md text-white">/</button>
+            <button onclick="appendToDisplay('4')" class="bg-blue-500 p-4 rounded-md text-white">4</button>
+            <button onclick="appendToDisplay('5')" class="bg-blue-500 p-4 rounded-md text-white">5</button>
+            <button onclick="appendToDisplay('6')" class="bg-blue-500 p-4 rounded-md text-white">6</button>
+            <button onclick="appendToDisplay('*')" class="bg-yellow-500 p-4 rounded-md text-white">*</button>
+            <button onclick="appendToDisplay('1')" class="bg-blue-500 p-4 rounded-md text-white">1</button>
+            <button onclick="appendToDisplay('2')" class="bg-blue-500 p-4 rounded-md text-white">2</button>
+            <button onclick="appendToDisplay('3')" class="bg-blue-500 p-4 rounded-md text-white">3</button>
+            <button onclick="appendToDisplay('-')" class="bg-yellow-500 p-4 rounded-md text-white">-</button>
+            <button onclick="appendToDisplay('0')" class="bg-blue-500 p-4 rounded-md text-white">0</button>
+            <button onclick="appendToDisplay('.') " class="bg-blue-500 p-4 rounded-md text-white">.</button>
+            <button onclick="calculateResult()" class="bg-green-500 p-4 rounded-md text-white">=</button>
+            <button onclick="appendToDisplay('+')" class="bg-yellow-500 p-4 rounded-md text-white">+</button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+
+</body>
+</html>
