@@ -1,0 +1,655 @@
+
+<!-- top category: Mathematics -->
+<!-- Algebraic Formulas -->
+<formulas>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Linear Equation</title>
+        <description>Represents a straight line in the form y = mx + b.</description>
+        <use_case>Modeling a relationship between two variables with a constant slope.</use_case>
+        <short_example>y = mx + b</short_example>
+        <long_example>If we have a line with a slope (m) of 2 and a y-intercept (b) of 3, the equation is: y = 2x + 3 This equation represents a line that passes through the point (0, 3) with a slope of 2.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Binomial Theorem</title>
+        <description>Expands the power of a binomial expression (a + b)^n.</description>
+        <use_case>Calculating the expansion of binomial expressions.</use_case>
+        <short_example>(a + b)^n = ΣC(n, k) * a^(n-k) * b^k</short_example>
+        <long_example>Expanding (x + y)^3 using the binomial theorem: (x + y)^3 = C(3, 0) * x^3 * y^0 + C(3, 1) * x^2 * y^1 + C(3, 2) * x^1 * y^2 + C(3, 3) * x^0 * y^3 = x^3 + 3x^2y + 3xy^2 + y^3</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Exponential Growth</title>
+        <description>Describes the growth of a quantity over time with a constant rate of increase.</description>
+        <use_case>Modeling population growth, compound interest, etc.</use_case>
+        <short_example>P(t) = P₀ * e^(rt)</short_example>
+        <long_example>Modeling population growth with an initial population of 1000, a growth rate of 5% per year: P(t) = 1000 * e^(0.05t) This formula calculates the population P at time t.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Arithmetic Sequence</title>
+        <description>Represents a sequence of numbers with a common difference between consecutive terms.</description>
+        <use_case>Describing regularly increasing or decreasing sequences.</use_case>
+        <short_example>aₙ = a₁ + (n - 1)d</short_example>
+        <long_example>Finding the 5th term in an arithmetic sequence with a first term (a₁) of 2 and a common difference (d) of 3: a₅ = 2 + (5 - 1) * 3 = 2 + 4 * 3 = 2 + 12 = 14</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Geometric Sequence</title>
+        <description>Represents a sequence of numbers with a common ratio between consecutive terms.</description>
+        <use_case>Describing exponential growth or decay.</use_case>
+        <short_example>aₙ = a₁ * r^(n-1)</short_example>
+        <long_example>Finding the 4th term in a geometric sequence with a first term (a₁) of 3 and a common ratio (r) of 2: a₄ = 3 * 2^(4-1) = 3 * 2^3 = 3 * 8 = 24</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Sum of Arithmetic Series</title>
+        <description>Calculates the sum of the terms in an arithmetic series.</description>
+        <use_case>Finding the total of a series with a constant difference.</use_case>
+        <short_example>Sₙ = n/2 * (2a + (n-1)d)</short_example>
+        <long_example>Calculating the sum of the first 10 terms in an arithmetic series with a first term (a) of 3 and a common difference (d) of 4: S₁₀ = 10/2 * (2*3 + (10-1)*4) = 5 * (6 + 36) = 5 * 42 = 210</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Sum of Geometric Series</title>
+        <description>Calculates the sum of the terms in a geometric series.</description>
+        <use_case>Finding the total of a series with a constant ratio.</use_case>
+        <short_example>Sₙ = a * (1 - rⁿ) / (1 - r)</short_example>
+        <long_example>Calculating the sum of the first 5 terms in a geometric series with a first term (a) of 2 and a common ratio (r) of 3: S₅ = 2 * (1 - 3^5) / (1 - 3) = 2 * (1 - 243) / (-2) = 2 * (-242) / (-2) = 242</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Quotient Rule</title>
+        <description>Calculates the derivative of the quotient of two functions.</description>
+        <use_case>Finding the derivative of a function expressed as the ratio of two functions.</use_case>
+        <short_example>(f/g)' = (f'g - fg') / g²</short_example>
+        <long_example>If f(x) = x² and g(x) = x + 1, the derivative of f(x)/g(x) is: (f/g)' = ((2x)(x + 1) - (x²)(1)) / (x + 1)² = (2x² + 2x - x²) / (x + 1)² = (x² + 2x) / (x + 1)²</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Logarithm Properties</title>
+        <description>Describes the properties of logarithmic functions.</description>
+        <use_case>Simplifying and solving equations involving logarithms.</use_case>
+        <short_example>logₐ(mn) = logₐ(m) + logₐ(n)</short_example>
+        <long_example>Simplifying the logarithmic expression log₂(8) + log₂(2): log₂(8) + log₂(2) = 3 + 1 = 4</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Algebraic Formulas</category>
+        <title>Completing the Square</title>
+        <description>Converts a quadratic equation into its vertex form.</description>
+        <use_case>Transforming quadratic equations for easier analysis.</use_case>
+        <short_example>x² + bx = (x + b/2)² - (b/2)²</short_example>
+        <long_example>Completing the square for the quadratic equation x² - 6x + 9: x² - 6x + 9 = (x - 3)²</long_example>
+    </formula>
+    <!-- Geometry Formulas -->
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Area of a Rectangle</title>
+        <description>Calculates the area of a rectangle with sides a and b.</description>
+        <use_case>Finding the total space enclosed by a rectangle.</use_case>
+        <short_example>Area = a * b</short_example>
+        <long_example>If a rectangle has sides of length 5 units and 8 units, the area is: Area = 5 * 8 = 40 square units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Area of a Triangle</title>
+        <description>Determines the area of a triangle with base b and height h.</description>
+        <use_case>Calculating the space enclosed by a triangle.</use_case>
+        <short_example>Area = (1/2) * b * h</short_example>
+        <long_example>For a triangle with base 6 units and height 10 units: Area = (1/2) * 6 * 10 = 30 square units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Volume of a Sphere</title>
+        <description>Computes the volume of a sphere with radius r.</description>
+        <use_case>Finding the space occupied by a three-dimensional sphere.</use_case>
+        <short_example>Volume = (4/3) * π * r³</short_example>
+        <long_example>If a sphere has a radius of 3 units: Volume = (4/3) * π * (3)³ = (4/3) * π * 27 = 36π cubic units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Perimeter of a Square</title>
+        <description>Calculates the perimeter of a square with side length s.</description>
+        <use_case>Finding the total length of the boundary of a square.</use_case>
+        <short_example>Perimeter = 4 * s</short_example>
+        <long_example>For a square with sides of length 7 units: Perimeter = 4 * 7 = 28 units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Circumference of a Circle</title>
+        <description>Determines the circumference of a circle with radius r.</description>
+        <use_case>Finding the total length of the boundary of a circle.</use_case>
+        <short_example>Circumference = 2 * π * r</short_example>
+        <long_example>For a circle with a radius of 4 units: Circumference = 2 * π * 4 = 8π units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Area of a Circle</title>
+        <description>Computes the area of a circle with radius r.</description>
+        <use_case>Calculating the space enclosed by a circle.</use_case>
+        <short_example>Area = π * r²</short_example>
+        <long_example>For a circle with a radius of 5 units: Area = π * (5)² = 25π square units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Surface Area of a Cube</title>
+        <description>Calculates the surface area of a cube with side length s.</description>
+        <use_case>Finding the total area of all faces of a cube.</use_case>
+        <short_example>Surface Area = 6 * s²</short_example>
+        <long_example>For a cube with sides of length 4 units: Surface Area = 6 * (4)² = 6 * 16 = 96 square units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Pythagorean Theorem</title>
+        <description>Relates the lengths of the sides of a right triangle: a² + b² = c².</description>
+        <use_case>Finding the length of one side of a right triangle when the other two sides are known.</use_case>
+        <short_example>c = √(a² + b²)</short_example>
+        <long_example>For a right triangle with legs of length 3 units and 4 units: c = √(3² + 4²) = √(9 + 16) = √25 = 5 units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Area of a Trapezoid</title>
+        <description>Calculates the area of a trapezoid with bases b₁ and b₂ and height h.</description>
+        <use_case>Finding the space enclosed by a trapezoid.</use_case>
+        <short_example>Area = (1/2) * (b₁ + b₂) * h</short_example>
+        <long_example>For a trapezoid with bases of length 6 units and 8 units and a height of 5 units: Area = (1/2) * (6 + 8) * 5 = (1/2) * 14 * 5 = 35 square units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Geometry Formulas</category>
+        <title>Volume of a Cone</title>
+        <description>Computes the volume of a cone with radius r and height h.</description>
+        <use_case>Finding the space occupied by a three-dimensional cone.</use_case>
+        <short_example>Volume = (1/3) * π * r² * h</short_example>
+        <long_example>If a cone has a radius of 2 units and a height of 7 units: Volume = (1/3) * π * (2)² * 7 = (1/3) * π * 4 * 7 = (1/3) * π * 28 = (28/3)π cubic units</long_example>
+    </formula>
+    <!-- Trigonometric Formulas -->
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Sine Law</title>
+        <description>Relates the lengths of the sides of a triangle to the sines of its angles.</description>
+        <use_case>Finding unknown sides or angles in a triangle.</use_case>
+        <short_example>a/sin(A) = b/sin(B) = c/sin(C)</short_example>
+        <long_example>In triangle ABC, where angle A is 30 degrees, angle B is 60 degrees, and side c is 8 units: a/sin(30) = 8/sin(60) a/(1/2) = 8/(√3/2) a = 4√3 units</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Cosine Law</title>
+        <description>Relates the lengths of the sides of a triangle to the cosine of one of its angles.</description>
+        <use_case>Finding unknown sides or angles in a triangle.</use_case>
+        <short_example>c² = a² + b² - 2ab * cos(C)</short_example>
+        <long_example>In triangle ABC, where side a is 5 units, side b is 7 units, and angle C is 45 degrees: c² = 5² + 7² - 2 * 5 * 7 * cos(45) c² = 25 + 49 - 70 * (1/√2) c² = 74 - 35√2</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Tangent Identity</title>
+        <description>Relates the tangent of an angle to the sine and cosine of that angle.</description>
+        <use_case>Simplifying expressions involving tangent.</use_case>
+        <short_example>tan(θ) = sin(θ) / cos(θ)</short_example>
+        <long_example>If tan(α) = 3/4, then sin(α)/cos(α) = 3/4.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Double-Angle Formula for Sine</title>
+        <description>Expresses the sine of twice an angle in terms of the sine of the original angle.</description>
+        <use_case>Simplifying expressions involving double angles.</use_case>
+        <short_example>sin(2θ) = 2 * sin(θ) * cos(θ)</short_example>
+        <long_example>If sin(θ) = 1/2, then sin(2θ) = 2 * (1/2) * √(1 - (1/2)²) = √3/2.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Product-to-Sum Identity</title>
+        <description>Converts the product of two sines or cosines into the sum or difference of trigonometric functions.</description>
+        <use_case>Simplifying trigonometric expressions involving products.</use_case>
+        <short_example>sin(α) * sin(β) = 1/2 * [cos(α - β) - cos(α + β)]</short_example>
+        <long_example>If sin(α) * sin(β) = 1/4, then cos(α - β) - cos(α + β) = 1/2.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Law of Sines for Angles</title>
+        <description>Relates the sines of the angles in a triangle to the lengths of its sides.</description>
+        <use_case>Finding unknown angles in a triangle.</use_case>
+        <short_example>sin(A)/a = sin(B)/b = sin(C)/c</short_example>
+        <long_example>In triangle ABC, where side a is 4 units, side b is 6 units, and angle C is 90 degrees: sin(A)/4 = sin(B)/6 sin(A) = 4sin(B)/6 sin(A) = 2sin(B)/3</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Pythagorean Identity</title>
+        <description>Relates the sine and cosine of an angle in a right triangle to each other.</description>
+        <use_case>Simplifying trigonometric expressions involving sine and cosine.</use_case>
+        <short_example>sin²(θ) + cos²(θ) = 1</short_example>
+        <long_example>If sin(α) = 3/5, then cos(α) = √(1 - (3/5)²) = 4/5.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Half-Angle Formula for Tangent</title>
+        <description>Expresses the tangent of half an angle in terms of the tangent of the original angle.</description>
+        <use_case>Simplifying expressions involving half angles.</use_case>
+        <short_example>tan(θ/2) = (1 - cos(θ)) / sin(θ)</short_example>
+        <long_example>If tan(α) = 2, then tan(α/2) = (1 - cos(α)) / sin(α).</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Sum-to-Product Identity</title>
+        <description>Converts the sum or difference of two sines or cosines into a product of trigonometric functions.</description>
+        <use_case>Simplifying trigonometric expressions involving sums or differences.</use_case>
+        <short_example>sin(α) + sin(β) = 2 * sin((α + β)/2) * cos((α - β)/2)</short_example>
+        <long_example>If sin(α) + sin(β) = 1, then 2 * sin((α + β)/2) * cos((α - β)/2) = 1.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Trigonometric Formulas</category>
+        <title>Inverse Trigonometric Function Identity</title>
+        <description>Expresses the arcsin and arccos functions in terms of each other.</description>
+        <use_case>Relating inverse trigonometric functions.</use_case>
+        <short_example>arcsin(x) + arccos(x) = π/2</short_example>
+        <long_example>If arcsin(y) = π/4, then arccos(y) = π/2 - π/4 = π/4.</long_example>
+    </formula>
+    <!-- Calculus Formulas -->
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Derivative of a Constant</title>
+        <description>Finds the derivative of a constant function.</description>
+        <use_case>Finding the rate of change of a constant value.</use_case>
+        <short_example>f'(x) = 0</short_example>
+        <long_example>If f(x) = 5, then f'(x) = 0 because the rate of change of a constant is zero.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Power Rule</title>
+        <description>Computes the derivative of a power function.</description>
+        <use_case>Finding the derivative of functions like x^n.</use_case>
+        <short_example>f'(x) = nx^(n-1)</short_example>
+        <long_example>If f(x) = 3x^2, then f'(x) = 2 * 3x^(2-1) = 6x.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Product Rule</title>
+        <description>Calculates the derivative of the product of two functions.</description>
+        <use_case>Finding the derivative of functions in the form of u * v.</use_case>
+        <short_example>(uv)' = u'v + uv'</short_example>
+        <long_example>If u(x) = 2x and v(x) = x^2, then (uv)' = (2 * x)(2) + (x^2)(0) = 4x.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Quotient Rule</title>
+        <description>Determines the derivative of the quotient of two functions.</description>
+        <use_case>Finding the derivative of functions in the form of u / v.</use_case>
+        <short_example>(u/v)' = (u'v - uv') / v²</short_example>
+        <long_example>If u(x) = 3x and v(x) = x^2, then (u/v)' = (3 * x^2 - 3x * 2x) / (x^2)^2 = (3 - 6x) / x^4.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Chain Rule</title>
+        <description>Calculates the derivative of a composite function.</description>
+        <use_case>Finding the derivative of functions in the form of g(f(x)).</use_case>
+        <short_example>(g(f(x)))' = g'(f(x)) * f'(x)</short_example>
+        <long_example>If g(u) = u^2 and f(x) = 2x, then (g(f(x)))' = 2 * (2x) = 4x.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Integral of a Constant</title>
+        <description>Finds the integral of a constant function.</description>
+        <use_case>Calculating the area under a constant curve.</use_case>
+        <short_example>∫c dx = cx + C</short_example>
+        <long_example>If ∫5 dx = 5x + C, where C is the constant of integration.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Integration by Substitution</title>
+        <description>Transforms an integral using a substitution.</description>
+        <use_case>Simplifying integrals by making a substitution.</use_case>
+        <short_example>∫f(g(x))g'(x) dx = ∫f(u) du</short_example>
+        <long_example>If ∫2x e^(x^2) dx, let u = x^2, then du/dx = 2x. The integral becomes ∫e^u du.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Fundamental Theorem of Calculus</title>
+        <description>Relates differentiation and integration.</description>
+        <use_case>Connecting the derivative and integral of a function.</use_case>
+        <short_example>∫[f'(x)] dx = f(x) + C</short_example>
+        <long_example>If ∫[2x] dx = x^2 + C, then the derivative of x^2 with respect to x is 2x.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Mean Value Theorem for Integrals</title>
+        <description>States conditions under which the average value of a function equals its integral average.</description>
+        <use_case>Finding a point where a function equals its average value.</use_case>
+        <short_example>If f is continuous on [a, b], then there exists c in [a, b] such that ∫[a to b] f(x) dx = f(c)(b - a).</short_example>
+        <long_example>If f(x) = x^2 on [0, 2], then there exists c in [0, 2] such that ∫[0 to 2] x^2 dx = c^2 * (2 - 0).</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>L'Hôpital's Rule</title>
+        <description>Applies to the indeterminate forms 0/0 and ∞/∞ when taking the limit of a quotient.</description>
+        <use_case>Evaluating limits of indeterminate forms involving quotients.</use_case>
+        <short_example>If lim(x→a) f(x)/g(x) is of the form 0/0 or ∞/∞, then lim(x→a) f(x)/g(x) = lim(x→a) f'(x)/g'(x).</short_example>
+        <long_example>If lim(x→0) sin(x)/x is indeterminate, applying L'Hôpital's Rule gives lim(x→0) cos(x)/1, which equals 1.</long_example>
+    </formula>
+    <formula>
+        <top_category>Mathematics</top_category>
+        <category>Calculus Formulas</category>
+        <title>Taylor Series Expansion</title>
+        <description>Represents a function as an infinite sum of its derivatives at a point.</description>
+        <use_case>Approximating a function using its derivatives at a specific point.</use_case>
+        <short_example>f(x) = f(a) + f'(a)(x - a) + (f''(a)/2!)(x - a)^2 + ...</short_example>
+        <long_example>The Taylor series expansion of e^x around 0 is e^x = 1 + x + x^2/2! + x^3/3! + ...</long_example>
+    </formula>
+    <!-- top category: computer science -->
+    <!-- Algorithms Formulas -->
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Time Complexity - Big O Notation</title>
+        <description>Describes the upper bound on the running time of an algorithm as a function of its input size.</description>
+        <use_case>Measuring the efficiency of an algorithm in the worst-case scenario.</use_case>
+        <short_example>O(n²)</short_example>
+        <long_example>Suppose we have an algorithm with time complexity O(n²) that compares each element in an array to every other element. For an array of size 5, the total number of comparisons is 25.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Binary Search</title>
+        <description>Efficiently finds the position of a target value within a sorted array.</description>
+        <use_case>Searching for a specific element in a sorted list.</use_case>
+        <short_example>Binary Search Algorithm</short_example>
+        <long_example>Let's use binary search to find the index of the value 8 in a sorted array [2, 4, 6, 8, 10]. Start with the whole array, compare the middle element (6) to 8, eliminate the left half, and repeat until the target is found.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Quicksort</title>
+        <description>Sorts an array by partitioning it into smaller sub-arrays and recursively sorting them.</description>
+        <use_case>Efficiently sorting a large set of data.</use_case>
+        <short_example>Quicksort Algorithm</short_example>
+        <long_example>Using quicksort to sort the array [3, 1, 4, 1, 5, 9, 2, 6, 5]: Choose a pivot (say, 4), partition the array into elements less than and greater than 4, and recursively apply the process to the sub-arrays.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Dijkstra's Algorithm</title>
+        <description>Finds the shortest path between nodes in a graph with non-negative weights.</description>
+        <use_case>Routing in computer networks or finding the optimal path in maps.</use_case>
+        <short_example>Dijkstra's Algorithm</short_example>
+        <long_example>Applying Dijkstra's algorithm to find the shortest path from node A to node E in a graph with edge weights: A - B (3), B - C (1), C - D (4), D - E (2). The optimal path is A - B - C - D - E with a total weight of 10.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Merge Sort</title>
+        <description>Divides an array into two halves, recursively sorts them, and merges them back together.</description>
+        <use_case>Sorting large data sets efficiently.</use_case>
+        <short_example>Merge Sort Algorithm</short_example>
+        <long_example>Using merge sort to sort the array [7, 2, 1, 6, 8, 5, 3, 4]: Divide the array into halves, sort each half, and merge them in sorted order to obtain the final sorted array.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Bubble Sort</title>
+        <description>Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.</description>
+        <use_case>Simple sorting of small data sets.</use_case>
+        <short_example>Bubble Sort Algorithm</short_example>
+        <long_example>Applying bubble sort to sort the array [4, 2, 7, 1, 9]: Compare adjacent elements, swap if necessary, and repeat the process until the array is sorted.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Depth-First Search (DFS)</title>
+        <description>Traverses a graph by exploring as far as possible along each branch before backtracking.</description>
+        <use_case>Finding paths in mazes or exploring connected components in a graph.</use_case>
+        <short_example>DFS Algorithm</short_example>
+        <long_example>Using depth-first search to explore a graph starting from a node A. Visit neighbors, backtrack if necessary, and continue until all reachable nodes are visited.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Selection Sort</title>
+        <description>Divides the array into a sorted and an unsorted region, repeatedly selects the smallest element, and swaps it with the first element of the unsorted region.</description>
+        <use_case>Simple sorting algorithm with space complexity O(1).</use_case>
+        <short_example>Selection Sort Algorithm</short_example>
+        <long_example>Applying selection sort to sort the array [5, 3, 8, 2, 1]: Select the smallest element (1), swap it with the first element, and repeat the process for the remaining unsorted region.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Insertion Sort</title>
+        <description>Builds the final sorted array one item at a time by repeatedly taking the next item and inserting it into the already sorted part.</description>
+        <use_case>Simple sorting algorithm with adaptive behavior.</use_case>
+        <short_example>Insertion Sort Algorithm</short_example>
+        <long_example>Using insertion sort to sort the array [4, 2, 6, 1, 3]: Take each element, insert it into its correct position in the sorted part, and repeat until the entire array is sorted.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Algorithms Formulas</category>
+        <title>Breadth-First Search (BFS)</title>
+        <description>Explores a graph level by level, visiting all neighbors of a node before moving on to the next level.</description>
+        <use_case>Shortest path finding and exploring graphs with uniform edge weights.</use_case>
+        <short_example>BFS Algorithm</short_example>
+        <long_example>Applying breadth-first search to explore a graph starting from a node A. Visit neighbors at the current level, move to the next level, and repeat until all reachable nodes are visited.</long_example>
+    </formula>
+    <!-- Data Structures Formulas -->
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Linked List Length</title>
+        <description>Finds the number of elements in a linked list.</description>
+        <use_case>Tracking the size of a dynamic data structure.</use_case>
+        <short_example>count = 0; while (node != null) { count++; node = node.next; }</short_example>
+        <long_example>To find the length of a linked list, initialize a counter variable (count) to 0. Traverse the linked list using a loop, incrementing the counter for each node until the end is reached.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Binary Search Tree Height</title>
+        <description>Calculates the height of a binary search tree.</description>
+        <use_case>Determining the balance of a binary search tree.</use_case>
+        <short_example>height(node) = 1 + max(height(node.left), height(node.right))</short_example>
+        <long_example>The height of a binary search tree is recursively defined as 1 plus the maximum height of its left and right subtrees. This formula helps assess the balance of the tree.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Queue Size</title>
+        <description>Determines the number of elements in a queue.</description>
+        <use_case>Checking the current workload in a queue-based system.</use_case>
+        <short_example>size = rear - front + 1;</short_example>
+        <long_example>To find the size of a queue, subtract the front index from the rear index and add 1. This formula represents the number of elements currently stored in the queue.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Hash Table Load Factor</title>
+        <description>Calculates the load factor of a hash table.</description>
+        <use_case>Assessing the efficiency of a hash table by measuring its occupancy.</use_case>
+        <short_example>load_factor = number_of_elements / table_size;</short_example>
+        <long_example>The load factor of a hash table is the ratio of the number of elements to the table size. A high load factor may lead to collisions, impacting the performance of hash-based operations.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Stack Capacity</title>
+        <description>Finds the capacity (maximum size) of a stack.</description>
+        <use_case>Ensuring the stack does not exceed its allocated size.</use_case>
+        <short_example>capacity = MAX_SIZE;</short_example>
+        <long_example>The capacity of a stack is a constant representing its maximum size. This formula helps prevent stack overflow by limiting the number of elements that can be pushed onto the stack.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Graph Adjacency Matrix</title>
+        <description>Represents the adjacency matrix of a graph.</description>
+        <use_case>Storing connectivity information in a graph using a matrix.</use_case>
+        <short_example>adj_matrix[i][j] = 1 if there is an edge between vertex i and j, else 0;</short_example>
+        <long_example>In an adjacency matrix, the value at position (i, j) is 1 if there is an edge between vertices i and j, and 0 otherwise. This matrix efficiently represents the connectivity of a graph.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Tree Inorder Traversal</title>
+        <description>Traverses a binary tree in an inorder sequence.</description>
+        <use_case>Listing elements of a binary search tree in ascending order.</use_case>
+        <short_example>inorder(node) = inorder(node.left) + visit(node) + inorder(node.right)</short_example>
+        <long_example>The inorder traversal of a binary tree involves visiting the left subtree, the root, and then the right subtree. This formula captures the recursive nature of the traversal process.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Graph Degree</title>
+        <description>Calculates the degree of a vertex in a graph.</description>
+        <use_case>Identifying the number of edges connected to a vertex.</use_case>
+        <short_example>degree(v) = sum of elements in the adjacency matrix's v-th row;</short_example>
+        <long_example>The degree of a vertex in a graph is the sum of the elements in the corresponding row of the adjacency matrix. It represents the number of edges connected to that vertex.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Priority Queue Extract-Min</title>
+        <description>Removes and returns the minimum element from a priority queue.</description>
+        <use_case>Implementing algorithms that require extracting the minimum element efficiently.</use_case>
+        <short_example>min_element = heap[1]; heap[1] = heap[size--]; heapify_down(1);</short_example>
+        <long_example>Extracting the minimum element from a priority queue involves swapping it with the last element, decrementing the size, and then restoring the heap property by heapifying down from the root.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Data Structures Formulas</category>
+        <title>Trie Search</title>
+        <description>Searches for a key in a trie data structure.</description>
+        <use_case>Efficiently locating words or keys in a trie.</use_case>
+        <short_example>search(node, key) = search(node.child[key[i]], key, i+1);</short_example>
+        <long_example>Searching for a key in a trie involves recursively traversing the trie's nodes based on the characters of the key. The search process continues until the entire key is matched in the trie.</long_example>
+    </formula>
+    <!-- Complexity Analysis Formulas -->
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Time Complexity - Linear Search</title>
+        <description>Describes the time complexity of linear search.</description>
+        <use_case>Assessing the efficiency of searching algorithms.</use_case>
+        <short_example>O(n)</short_example>
+        <long_example>The time complexity of linear search is O(n), indicating a linear relationship between the size of the input and the time required to find an element. It involves checking each element one by one.
+        </long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Space Complexity - Merge Sort</title>
+        <description>Quantifies the space complexity of the merge sort algorithm.</description>
+        <use_case>Evaluating the memory requirements of sorting algorithms.</use_case>
+        <short_example>O(n)</short_example>
+        <long_example>The space complexity of merge sort is O(n), indicating a linear relationship between the size of the input array and the additional memory required for the sorting process.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Amortized Analysis - Dynamic Array</title>
+        <description>Applies amortized analysis to dynamic array operations.</description>
+        <use_case>Understanding the average time complexity per operation over a sequence of operations.</use_case>
+        <short_example>O(1)</short_example>
+        <long_example>Amortized analysis of dynamic array operations, such as resizing, yields an average time complexity of O(1) per operation over a sequence of operations. It accounts for occasional costly operations.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Worst-Case Time Complexity - QuickSort</title>
+        <description>Specifies the worst-case time complexity of the QuickSort algorithm.</description>
+        <use_case>Assessing the efficiency of sorting large datasets in the worst-case scenario.</use_case>
+        <short_example>O(n²)</short_example>
+        <long_example>The worst-case time complexity of QuickSort is O(n²), which occurs when the pivot selection consistently results in poorly balanced partitions. Efficient pivot selection is crucial for optimal performance.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Master Theorem</title>
+        <description>Solves recurrence relations to analyze the time complexity of divide-and-conquer algorithms.</description>
+        <use_case>Determining the time complexity of algorithms with recursive structures.</use_case>
+        <short_example>T(n) = aT(n/b) + f(n)</short_example>
+        <long_example>The Master Theorem is applied to recurrence relations of the form T(n) = aT(n/b) + f(n), providing a concise method to analyze the time complexity of divide-and-conquer algorithms.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Big Omega Notation</title>
+        <description>Represents the lower bound of the growth rate of a function.</description>
+        <use_case>Expressing the best-case time complexity of an algorithm.</use_case>
+        <short_example>Ω(g(n))</short_example>
+        <long_example>Big Omega notation, denoted as Ω(g(n)), represents the lower bound of the growth rate of a function. It provides a lower limit on the performance of an algorithm in the best-case scenario.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Heapify Time Complexity</title>
+        <description>Describes the time complexity of the heapify operation in a binary heap.</description>
+        <use_case>Understanding the efficiency of transforming an array into a binary heap.</use_case>
+        <short_example>O(log n)</short_example>
+        <long_example>The time complexity of the heapify operation in a binary heap is O(log n), where n is the number of elements. Heapify ensures the heap property is maintained efficiently.</long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Linearithmic Time Complexity - Merge Sort</title>
+        <description>Specifies the time complexity of Merge Sort in terms of its input size.</description>
+        <use_case>Comparing the efficiency of sorting algorithms for large datasets.</use_case>
+        <short_example>O(n log n)</short_example>
+        <long_example>The time complexity of Merge Sort is O(n log n), making it an efficient algorithm for sorting large datasets. It divides the input array into halves and recursively sorts them.
+        </long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Big Theta Notation</title>
+        <description>Denotes the tight asymptotic bound of a function's growth rate.</description>
+        <use_case>Expressing both the upper and lower bounds of an algorithm's time complexity.</use_case>
+        <short_example>Θ(g(n))</short_example>
+        <long_example>Big Theta notation, denoted as Θ(g(n)), represents the tight asymptotic bound of a function's growth rate. It provides both upper and lower bounds on the performance of an algorithm.
+        </long_example>
+    </formula>
+    <formula>
+        <top_category>Computer Science</top_category>
+        <category>Complexity Analysis Formulas</category>
+        <title>Average Case Time Complexity - Randomized QuickSort</title>
+        <description>Describes the average-case time complexity of the Randomized QuickSort algorithm.</description>
+        <use_case>Evaluating the expected performance of QuickSort with randomized pivot selection.</use_case>
+        <short_example>θ(n log n)</short_example>
+        <long_example>The average-case time complexity of Randomized QuickSort is θ(n log n), indicating its efficiency when randomizing pivot selection. The expected performance is significantly improved compared to deterministic pivoting.
+        </long_example>
+    </formula>
+</formulas>
