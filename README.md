@@ -1,3 +1,4 @@
+![Logo](https://cdn.array.ovh/static/calculator/demo/calculator.png)
 # Web-Calculator
 Simple web application written in JavaScript, utilizing HTML for structure and CSS (Tailwind) for styling. Features easy-to-use calculators that can be effortlessly moved and managed simultaneously.
 ## Features
