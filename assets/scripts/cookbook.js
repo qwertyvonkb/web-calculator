@@ -92,7 +92,7 @@ function showCategories(xmlData, cookbook, topCategory) {
     // Create back button
     const backButton = document.createElement('button');
     backButton.className = 'back-button absolute top-0 left-0 p-1 rounded-tl-md rounded-br-md bg-blue-500 text-white text-sm';
-    backButton.textContent = '<--';
+    backButton.innerHTML = '<img src="assets/images/left-arrow.png" alt="Back" class="w-6 h-6">';
     backButton.addEventListener('click', () => populateCookbookContent(xmlData, cookbook));
 
     // Attach elements to cookbook
@@ -133,7 +133,7 @@ function showFormulas(xmlData, cookbook, topCategory, subCategory) {
     // Create back button
     const backButton = document.createElement('button');
     backButton.className = 'back-button absolute top-0 left-0 p-1 rounded-tl-md rounded-br-md bg-blue-500 text-white text-sm';
-    backButton.textContent = '<--';
+    backButton.innerHTML = '<img src="assets/images/left-arrow.png" alt="Back" class="w-6 h-6">';
     backButton.addEventListener('click', () => showCategories(xmlData, cookbook, topCategory));
 
     // Attach elements to cookbook
@@ -176,7 +176,7 @@ function showFormulaContent(xmlData, cookbook, formula) {
     // Create back button
     const backButton = document.createElement('button');
     backButton.className = 'back-button absolute top-0 left-0 p-1 rounded-tl-md rounded-br-md bg-blue-500 text-white text-sm';
-    backButton.textContent = '<--';
+    backButton.innerHTML = '<img src="assets/images/left-arrow.png" alt="Back" class="w-6 h-6">';
     backButton.addEventListener('click', () => showFormulas(xmlData, cookbook, formula.querySelector('top_category').textContent, formula.querySelector('category').textContent));
 
     // Attach elements to cookbook
